@@ -12,6 +12,7 @@ function App() {
         voluptatibus officiis deserunt.
       </p>
       <button>Read more</button>
+      <a href="/">Learn more</a>
     </div>
   );
 }
