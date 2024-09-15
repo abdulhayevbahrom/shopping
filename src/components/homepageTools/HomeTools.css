@@ -1,0 +1,60 @@
+.mini-texts {
+  width: 75%;
+  height: 277px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  margin: 10px 10%;
+  background-color: #2e2be3;
+  font-family: "Roboto", sans-serif;
+  gap: 20px;
+  padding: 0 2%;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.mini-texts > .item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: #fff;
+}
+
+.mini-texts > .item figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffffff35;
+}
+
+.mini-texts > .item figure img {
+  width: 54px;
+  height: 54px;
+}
+
+.mini-texts > .item .text {
+  height: 100%;
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mini-texts > .item .text h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32.81px;
+  margin-bottom: 15px;
+}
+
+.mini-texts > .item .text p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 28px;
+}
